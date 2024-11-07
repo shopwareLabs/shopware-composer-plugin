@@ -19,7 +19,9 @@
         "composer-plugin-api": "^2.1"
     },
     "require-dev": {
-        "composer/composer": "^2.1"
+        "composer/composer": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "phpunit/phpunit": "^11.4"
     },
     "extra": {
         "class": "Shopware\\ComposerPlugin\\ComposerPlugin"
