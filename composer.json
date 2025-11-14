@@ -1,0 +1,23 @@
+{
+    "name": "shopware/composer-plugin",
+    "version": "1.0.0",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Shopware\\ComposerPlugin\\": "src/"
+        }
+    },
+     "authors": [
+        {
+            "name": "Soner Sayakci",
+            "email": "s.sayakci@shopware.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "composer-plugin-api": "^2.1"
+    },
+    "extra": {
+        "class": "Shopware\\ComposerPlugin\\ComposerPlugin"
+    }
+}
